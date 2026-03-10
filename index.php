@@ -30,9 +30,7 @@
         </p>
     </section>
 
-    <footer>
-        © 2026 My Portfolio
-    </footer>
+    <?php include 'includes/footer.php'; ?>
 
 </body>
 </html>
