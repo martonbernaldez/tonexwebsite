@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* HEADER */
+header {
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* NAVIGATION */
+nav {
+    background: #636262;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+    height: 350px;
+    background: #2a6fdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+     background: url('assets/images/background.jpg') no-repeat center center/cover;
+}
+
+/* CONTENT */
+section {
+    max-width: 1100px;
+    margin: 20px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #003366;
+}
+
+/* FOOTER */
+footer {
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.content-card {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-card h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.activity-card {
+            background: white;
+            padding: 20px;
+            margin: 15px auto;
+            border-radius: 10px;
+            max-width: 900px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+
+        .activity-card h2 {
+            color: #003366;
+            margin-bottom: 12px;
+        }
+
+        .activity-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .activity-card ul li {
+            margin: 10px 0;
+        }
+
+        .activity-card a {
+            display: block;
+            text-decoration: none;
+            color: #1e40af;
+            padding: 8px 12px;
+            border: 1px solid #1e40af;
+            border-radius: 6px;
+            margin-bottom: 8px;
+        }
+
+        .activity-card a:hover {
+            background: #1e40af;
+            color: white;
+        }
+
+        .contact-card {
+            background: white;
+            padding: 25px;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 900px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-card h2 {
+            color: #003366;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background: #1e40af;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .contact-form button:hover {
+            background: #3b82f6;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #1e40af;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #3b82f6;
+        }

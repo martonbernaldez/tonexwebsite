@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Activity 7: Functions (Greeting)</h1>
+    
+    <div class="box"></div>
+
+    <label for="nameInput">Enter a name</label>
+    <input type="text" id="nameInput" placeholder="e.g., Maria">;
+
+    <button onclick="showGreeting()">Greet</button>
+
+    <p id="output">Output: ___</p>
+
+    <script>
+
+        function greet(name) {
+            return "Hello, " + name + "!"
+        }
+
+        function showGreeting() {
+            const name = document.getElementById("nameInput").value.trim;
+            const outputEl = document.getElementById("outputu");
+        }
+    </script>
+</body>
+</html>
